@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\BasicData">
+      <UniqueIdentifier>{a8dde9de-3bb7-48b1-877c-abc51b6b4263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Achieve">
+      <UniqueIdentifier>{81f4945d-bd13-4a3a-b6ce-3f96ff63d91f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Class">
+      <UniqueIdentifier>{3e74c63b-5191-42dd-88b8-6e2f174082f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\BasicData">
+      <UniqueIdentifier>{4d7bafe9-72ec-4077-8037-87cdd898a92c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="referenct.h">
+      <Filter>头文件\BasicData</Filter>
+    </ClInclude>
+    <ClInclude Include="TankAttribute.h">
+      <Filter>头文件\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Public.h">
+      <Filter>头文件\BasicData</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TankAttribute.cpp">
+      <Filter>源文件\Achieve</Filter>
+    </ClCompile>
+    <ClCompile Include="Public.cpp">
+      <Filter>源文件\BasicData</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
