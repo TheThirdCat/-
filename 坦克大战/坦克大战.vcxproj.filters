@@ -27,7 +27,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="referenct.h">
+    <ClInclude Include="reference.h">
       <Filter>头文件\BasicData</Filter>
     </ClInclude>
     <ClInclude Include="TankAttribute.h">
@@ -36,12 +36,18 @@
     <ClInclude Include="Public.h">
       <Filter>头文件\BasicData</Filter>
     </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>头文件\BasicData</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TankAttribute.cpp">
       <Filter>源文件\Achieve</Filter>
     </ClCompile>
     <ClCompile Include="Public.cpp">
+      <Filter>源文件\BasicData</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
       <Filter>源文件\BasicData</Filter>
     </ClCompile>
   </ItemGroup>

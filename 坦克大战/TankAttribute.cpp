@@ -9,12 +9,15 @@ TankAttribute::TankAttribute(int attack, double defend, uint health, double spee
 	this->level = level;
 }
 
-int TankAttribute::levelup(double multi=1)
+int TankAttribute::levelup(double multi)
 {
-	attack = attack + Public::getLevelSpace() * 10 * multi;
-	defend = defend + Public::getLevelSpace() * 10 * multi;
-	health = health + Public::getLevelSpace() * 100 * multi;
-	speed = speed + Public::getLevelSpace() * 1 * multi;
-	level++;
+	this->attack = this->attack + Public::getLevelSpace() * 10 * multi;
+	this->defend = this->defend + Public::getLevelSpace() * 10 * multi;
+	this->health = this->health + Public::getLevelSpace() * 100 * multi;
+	this->speed = this->speed + Public::getLevelSpace() * 1 * multi;
+	this->level++;
 	return 0;
+}
+void TankAttribute::move() {
+
 }

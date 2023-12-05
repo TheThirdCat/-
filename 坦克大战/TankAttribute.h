@@ -1,5 +1,5 @@
 #pragma once
-#include"referenct.h"
+#include"reference.h"
 class TankAttribute
 {
 private:
@@ -18,7 +18,15 @@ public:
 	/// <param name="speed">速度默认5</param>
 	/// <param name="level">等级默认1</param>
 	TankAttribute(int attack=10,double defend=0,uint health=50,double speed=5,uint level=1);
-	
-	int levelup(double 倍率);
+	/// <summary>
+	/// 坦克升级各方面属性提升
+	/// </summary>
+	/// <param name="multi">坦克的升级倍率</param>
+	/// <returns></returns>
+	int levelup(double multi=1);
+	/// <summary>
+	/// 移动
+	/// </summary>
+	void move();
 };
 
